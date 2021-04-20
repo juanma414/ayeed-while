@@ -9,13 +9,13 @@ importe = float(input("ingrese el importe:"))
 contA = 0
 contB = 0
 while importe != 0:
-	if importe <= 85:
+ if importe <= 85:
         contA = contA + 1
-    else
+ else:
         contB = contB + 1
         desc = importe * 0.05
         print ("el importe es:", importe)
         print ("el descuento es de:",desc)
-importe = float(input("ingrese el importe:"))   
+ importe = float(input("ingrese el importe:"))   
 print("el porcentaje de la cantidad de importes que tuvieron descuento es:", (contB/(contB+contA)))  
 
